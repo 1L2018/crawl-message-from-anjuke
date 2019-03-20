@@ -36,7 +36,7 @@ def get_message(N):
     return list_sum_message
 def save_message(list_message,file_name,N):
     """Save the results crawled from the settlers as CSV files
-       list_message is the crawling results list [[],[]]
+       list_message is the crawling results list [{},{}]
        N is the numbers of page
     """
     with open(file_name,"w",encoding="utf8") as f:
